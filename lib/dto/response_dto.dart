@@ -2,7 +2,6 @@ class ResponseDTO {
   final int? code;
   final String? msg;
   String? token;
-  // dynamic은 ? 안붙여도 됨
   dynamic data; // JsonArray [], JsonObject {}
 
   ResponseDTO({

@@ -3,7 +3,7 @@ import 'package:intl/intl.dart';
 class JoinReqDTO {
   final String username;
   final String password;
-  final DateTime email;
+  final String email;
 
   JoinReqDTO({
     required this.username,
